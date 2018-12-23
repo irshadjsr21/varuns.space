@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/press_and_clients/</loc>
+    <lastmod>2018-12-23T11:13:49+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/blog/third/</loc>
+    <lastmod>2018-12-23T04:56:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/blog/second/</loc>
+    <lastmod>2018-12-22T21:33:16+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/blog/first/</loc>
+    <lastmod>2018-12-21T16:33:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/</loc>
+    <lastmod>2018-12-21T21:01:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/blog/</loc>
+    <lastmod>2018-12-23T04:56:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vigilant-varahamihira-782616.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

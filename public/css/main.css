@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.nav {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.nav .nav-items {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav .nav-item {
+    margin-right: 10px;
+}
+
+.nav .nav-item a {
+    padding: 10px;
+    opacity: .7;
+}
+
+.nav .nav-item a:hover,.nav .nav-item a.active  {
+    opacity: 1;
+}
+
+.nav .nav-brand {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: calc(50%);
+    transform: translateX(-50%);
+    font-size: 1.75rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.social-icons i {
+    color: #000;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fade {
+    opacity: 0.7;
+}
+
+.blog-list {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.blog-list:hover {
+    opacity: 1;
+}
+
+.blog-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blog-list .blog-list-date {
+    text-align: right;
+    opacity: 0.7;
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media(max-width: 425px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 700px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        align-items: center;
+    }
+    .nav .nav-items {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .nav .nav-item {
+        margin-bottom: 5px;
+    }
+}

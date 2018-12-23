@@ -1,0 +1,28 @@
+{
+    "baseURL": "https://vigilant-varahamihira-782616.netlify.com/",
+    "params": {
+        "AuthorName": "Varun",
+        "navigation" : {
+            "left" : [
+                {
+                    "name" : "Blog",
+                    "URL" : "/blog"
+                },
+                {
+                    "name": "Press and Clients",
+                    "URL": "/press_and_clients"
+                }
+            ],
+            "right" : [
+                
+            ]
+        },
+        "socials" : {
+            "twitter" : "https://twitter.com/miraclepreneur",
+            "instagram" : "https://www.instagram.com/the.miraclepreneur/",
+            "linkedIn" : "https://www.linkedin.com/in/varunchoraria/"
+        }
+    },
+    "title": "Varun",
+    "theme": "personal-site-with-blog"
+}

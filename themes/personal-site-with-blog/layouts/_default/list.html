@@ -1,0 +1,14 @@
+
+{{define "main"}}
+{{ range .Data.Pages }}
+
+<section class="blog-list">
+    <a href="{{ .Permalink }}">
+        <h2 class="blog-list-title">{{ .Title }}</h2>
+        <div class="blog-list-body">{{ .Content | safeHTML | truncate 300 }}</div>
+        <div class="blog-list-date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+    </a>
+</section>
+
+{{end}}
+{{end}}
