@@ -38,6 +38,12 @@ p {
     text-align: justify;
 }
 
+img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+
 /* Navigations */
 .nav {
     margin: 20px;
@@ -84,7 +90,7 @@ p {
 /* Footer */
 
 .footer {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 60px;
 }
 
