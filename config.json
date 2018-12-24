@@ -7,16 +7,12 @@
                 {
                     "name" : "Blog",
                     "URL" : "/blog"
-                },
-                {
-                    "name": "Press and Clients",
-                    "URL": "/press_and_clients"
                 }
             ],
             "right" : [
                 {
-                    "name": "New Page",
-                    "URL": "/new-page"
+                    "name": "Press and Clients",
+                    "URL": "/press_and_clients"
                 }
             ]
         },
