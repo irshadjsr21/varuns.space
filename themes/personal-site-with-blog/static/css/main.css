@@ -90,6 +90,8 @@ img {
 /* Footer */
 
 .footer {
+    width: 80%;
+    margin: auto;
     margin-bottom: 30px;
     margin-top: 60px;
 }
