@@ -129,6 +129,11 @@ p {
     opacity: 0.8;
 }
 
+.blog-list img {
+    max-width: 50%;
+    height: auto;
+}
+
 .blog-list:hover {
     opacity: 1;
 }
@@ -174,4 +179,11 @@ p {
     .nav .nav-item {
         margin-bottom: 5px;
     }
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
