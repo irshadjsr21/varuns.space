@@ -90,6 +90,8 @@ img {
 /* Footer */
 
 .footer {
+    width: 80%;
+    margin: auto;
     margin-bottom: 30px;
     margin-top: 60px;
 }
@@ -165,6 +167,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .as-column {
@@ -174,13 +177,25 @@ img {
 }
 
 .as-row div {
-    min-width: 300px;
+    min-width: 250px;
     flex-basis: auto;
     flex-grow: 1;
 }
 
+.as-row .col {
+    flex: 1;
+}
+
 .space-between {
     justify-content: space-between;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-large {
+    margin-bottom: 25px;
 }
 
 /* Media Queries */
