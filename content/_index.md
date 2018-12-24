@@ -5,7 +5,7 @@ draft: false
 ---
 
 # <div class="text-center">Hi, I’m a DIY marketer and writer</div>
-<p class="text-center">I'm Varun and I live and work in Bengaluru, KA.</p>
+<h4 class="text-center">I'm Varun and I live and work in Bengaluru, KA.</h4>
 
 I’m a 21 year old entrepreneur, engineer and author to start off with. I’m mostly self-taught, because I believe in learning by rapid experimentation. And sometimes when I don’t know how to do things, I make friends who help me do it. KISS. (Keep it simple, stupid). 
 
