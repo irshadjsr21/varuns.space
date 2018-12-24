@@ -105,6 +105,18 @@ p {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
 .fade {
     opacity: 0.7;
 }

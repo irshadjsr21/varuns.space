@@ -14,7 +14,10 @@
                 }
             ],
             "right" : [
-                
+                {
+                    "name": "New Page",
+                    "URL": "/new-page"
+                }
             ]
         },
         "socials" : {

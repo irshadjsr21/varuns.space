@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: irshadjsr21/Personal_Blogging_with_Hugo
+  repo: miraclepreneur/varuns.space
   branch: master
 
 media_folder: "static/images/uploads"
