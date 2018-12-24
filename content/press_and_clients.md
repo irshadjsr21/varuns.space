@@ -1,5 +1,5 @@
 ---
-title: "Press And Clients"
+title: "Press and Clients"
 date: 2018-12-23T11:13:49+05:30
 draft: false
 ---
