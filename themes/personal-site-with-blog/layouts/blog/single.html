@@ -1,6 +1,8 @@
 
 {{define "main"}}
+<div class="container container-white">
 <h1>{{ .Title }}</h1>
 <p class="fade">{{ .Date.Format "Monday, January 2, 2006" }}</p>
-{{ .Content }}  
+{{ .Content }}
+</div>  
 {{end}}

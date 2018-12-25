@@ -1,3 +1,9 @@
+:root {
+    --bg: #f4f4f4;
+    --contentBg: white;
+    --shadow: 0px 0px 10px #ddd;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +15,7 @@ html {
 
 body {
     font-family: Helvetica, sans-serif;
+    background: var(--bg);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -112,11 +119,11 @@ img {
 
 /* Blog List */
 .blog-list {
-    border: 1px solid #ddd;
-    border-radius: 5px;
     padding: 15px 20px;
     margin-bottom: 10px;
     opacity: 0.8;
+    background: var(--contentBg);
+    box-shadow: var(--shadow);
 }
 
 .blog-list img {
@@ -142,7 +149,15 @@ img {
 .container {
     width: 60%;
     margin: auto;
+    box-sizing: border-box;
 }
+
+.container-white {  
+    padding: 20px 40px;
+    background: var(--contentBg);
+    box-shadow: var(--shadow)
+}
+
 .text-center {
     text-align: center;
 }
@@ -177,7 +192,7 @@ img {
 }
 
 .as-row div {
-    min-width: 250px;
+    min-width: 150px;
     flex-basis: auto;
     flex-grow: 1;
 }
@@ -202,6 +217,10 @@ img {
 @media(max-width: 768px) {
     .container {
         width: 80%;
+    }
+
+    .container-white {
+        padding: 10px 20px;
     }
 }
 
@@ -229,5 +248,6 @@ img {
 
     .nav .nav-item {
         margin-bottom: 5px;
+        margin-right: 0;
     }
 }
